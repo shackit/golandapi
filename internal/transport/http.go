@@ -2,7 +2,7 @@ package transport
 
 import (
 	"encoding/json"
-	"goland-course-api/internal/todo"
+	"github.com/shackit/golandapi/internal/todo"
 	"log"
 	"net/http"
 )

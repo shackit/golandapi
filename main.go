@@ -1,9 +1,9 @@
 package main
 
 import (
-	"goland-course-api/internal/db"
-	"goland-course-api/internal/todo"
-	"goland-course-api/internal/transport"
+	"github.com/shackit/golandapi/internal/db"
+	"github.com/shackit/golandapi/internal/todo"
+	"github.com/shackit/golandapi/internal/transport"
 	"log"
 )
 

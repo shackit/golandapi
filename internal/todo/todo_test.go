@@ -2,8 +2,8 @@ package todo_test
 
 import (
 	"context"
-	"goland-course-api/internal/db"
-	"goland-course-api/internal/todo"
+	"github.com/shackit/golandapi/internal/db"
+	"github.com/shackit/golandapi/internal/todo"
 	"reflect"
 	"testing"
 )

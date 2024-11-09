@@ -1,4 +1,4 @@
-module goland-course-api
+module github.com/shackit/golandapi
 
 go 1.23
 

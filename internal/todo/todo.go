@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"goland-course-api/internal/db"
+	"github.com/shackit/golandapi/internal/db"
 	"strings"
 )
 
