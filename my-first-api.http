@@ -1,0 +1,35 @@
+### GET request to example server
+GET http://localhost:8080/todo
+
+### POST request to add a TODO
+
+POST localhost:8080/todo
+
+{
+"id": 1,
+"item": "get groceries"
+}
+
+### GET request to add a TODO
+
+GET localhost:8080/search?q=groceries
+
+
+### POST a second request to add another TODO
+POST localhost:8080/todo
+
+{
+"id": 2,
+"item": "walk the dog"
+}
+
+### POST a second request to add another TODO
+POST localhost:8080/todo
+
+{
+"id": 3,
+"item": "clean the car"
+}
+
+### DELETE a todo
+DELETE localhost:8080/todo/1
